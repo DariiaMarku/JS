@@ -65,8 +65,8 @@ function showArrays(event)
         var apiUrl = "http://localhost:57597/Home/GetLatLongToUTM?"
 	$.get(apiUrl+"lat="+lat+"&longt="+longt)
         .done(function (data,arr) {
- 	// On success, 'data' contains a list of products.
-	debugger;
+ 	// On success, "data" contains a list of products.
+	//debugger;
         }); 
 		
 	
