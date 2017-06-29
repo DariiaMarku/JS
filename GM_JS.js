@@ -62,8 +62,8 @@ function showArrays(event)
 	var lat = document.getElementById("lat").value;
         var longt = document.getElementById("long").value;
 	//http://localhost:55340/Home/GetLatLongToUTM?lat=-55&longt=-89
-        var apiUrl = 'http://localhost:57597/Home/GetLatLongToUTM?'
-	$.get(apiUrl+'lat='+lat+'&longt='+longt)
+        var apiUrl = "http://localhost:57597/Home/GetLatLongToUTM?"
+	$.get(apiUrl+"lat="+lat+"&longt="+longt)
         .done(function (data,arr) {
  	// On success, 'data' contains a list of products.
 	debugger;
