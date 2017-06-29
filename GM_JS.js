@@ -1,7 +1,7 @@
   /* This is Visualization of Estimated Population data with their condifence level
                within a circular range.*/
-    var infi; 
-var RadVal =function(event){
+	var infi; 
+	var RadVal =function(event){
         var inputVal = document.getElementById("rad");
         if(event.target.value >= 100 && event.target.value <= 10000)
         {
